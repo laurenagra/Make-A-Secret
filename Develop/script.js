@@ -1,5 +1,5 @@
-var alphaUp = "abcdefghijklmnopqrstuvwxyz";
-var alphaLow = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var alphaLow = "abcdefghijklmnopqrstuvwxyz";
+var alphaUp = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers = "0123456789";
 var symbols = "!@#$%^&*_-+=";
 
@@ -25,6 +25,11 @@ else if (click > 128) {
 }
 else alert ("You chose " + click + " characters");
 //     b. lowercase, uppercase, numbers, special characters
+
+var low = confirm("Would you like to include lowercase letters?")
+if (low) {
+
+}
 // II. Validate the input
 // III. Generate password based on criteria
 
