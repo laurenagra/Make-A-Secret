@@ -13,10 +13,17 @@ var generateBtn = document.querySelector("#generate");
 function generatePassword(){
   console.log("You clicked the button!");
 
-  var passwordLenth = 8 < 128;
 // I. Prompt the user for password criteria
 //     a. pasword length 8 < 128
-  prompt("How many characters would you like?")
+  var click = window.prompt("How many characters would you like?")
+
+if (click < 8){
+  return ("Please choose a longer password length!")
+}
+else if (click > 128) {
+  return ("Please choose a shorter password length!")
+}
+else alert ("You chose " + click + " characters");
 //     b. lowercase, uppercase, numbers, special characters
 // II. Validate the input
 // III. Generate password based on criteria
