@@ -13,4 +13,4 @@
 ## Solved: https://laurenagra.github.io/Make-A-Secret/
 ### Thank you!
 
-<img src="./assets/images/password-gen.png">
+<img src="./images/password-gen.png">
