@@ -24,6 +24,7 @@ function generatePassword(){
 
   if (length < 8){
     alert ("Please choose a longer password length!")
+    //Prompt the user to once again select a password length, specifying the allowed range
     click = window.prompt("Please choose a length between 8 and 128 characters!");
   }
   else if (length > 128) {
@@ -91,7 +92,7 @@ if (characters){
 }
 console.log(resultArray)
 
-
+//Change click to length to account for changing string to a number
 for (var i = 0; i < length; i++) {
       
   userArray.push (resultArray[Math.floor(Math.random() * resultArray.length)]); 
