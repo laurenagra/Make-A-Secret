@@ -1,7 +1,6 @@
 # Make-A-Secret
 
-## This project was built with the intention of getting a better insight into javascript capabilities, particularly random generation and concatentation possibilities. 
-
+>## This project was built with the intention of getting a better insight into javascript capabilities, particularly random generation and concatenation
 >The point of this process was to really get a better understanding of how to contatenate within my arrays, and how to tie everything back in so values would be accounted for if needed. Initially, I wasn't sure how to get the actual password to print on the screen despite having all of the prompts for the password itself and all the alerts needed to identify the various parameters set by the user. 
 
 
@@ -13,4 +12,4 @@
 ## Solved: https://laurenagra.github.io/Make-A-Secret/
 ### Thank you!
 
-<img src="./images/password-gen.png">
+<img src="./assets/images/password-gen.png">
